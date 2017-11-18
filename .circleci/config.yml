@@ -4,4 +4,4 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: { "echo 123", "ls -l" }
+      - run: [ "echo 123", "ls -l" ]
